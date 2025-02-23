@@ -39,7 +39,6 @@ public class Processo implements Runnable {
         this.coordenador = coordenador;
     }
     
-    // Retorna o coordenador ativo, se houver
     public static Processo getCoordenador() {
         for (Processo p : processos) {
             if (p.isCoordenador() && p.isAtivo()) {
@@ -49,7 +48,6 @@ public class Processo implements Runnable {
         return null;
     }
     
-    // Inicia a eleição enviando mensagem para processos com ID maior
     public void iniciarEleicao() {
         if (!ativo) return;
         LogSistema.log(String.valueOf(id), "Inicia eleição.");
@@ -60,7 +58,6 @@ public class Processo implements Runnable {
                 respostaMaior = true;
             }
         }
-        // Se nenhum processo com ID maior responder, torna-se coordenador
         if (!respostaMaior) {
             tornarCoordenador();
         } else {
@@ -68,7 +65,6 @@ public class Processo implements Runnable {
         }
     }
     
-    // Declara o processo como coordenador e notifica os demais
     public void tornarCoordenador() {
         this.coordenador = true;
         LogSistema.log(String.valueOf(id), "Se torna o novo coordenador.");
