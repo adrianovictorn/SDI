@@ -9,10 +9,12 @@ class Mensagem {
         this.conteudo = conteudo;
     }
 
+    //Retorna o timestamp
     public int getTimestamp() {
         return timestamp;
     }
 
+    //Retorna o conteudo
     public String getConteudo() {
         return conteudo;
     }
