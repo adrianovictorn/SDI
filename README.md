@@ -1,8 +1,12 @@
 ## Identificação:
 Instituto Federal de Ciência, Educação e Tecnologia da Bahia - Santo Antônio de Jesus
+
 Discente: Adriano Victor Nascimento Ribeiro
+
 Disciplina: Sistemas Distribuidos
+
 Curso: Analise e Desenvolvimento de Sistemas
+
 Id: 20222TADSSAJ0024
 
 ## Relógio de Lamport
