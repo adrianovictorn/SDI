@@ -1,14 +1,4 @@
-## Identificação:
-Instituto Federal de Ciência, Educação e Tecnologia da Bahia - Santo Antônio de Jesus
-
-Discente: Adriano Victor Nascimento Ribeiro
-
-Disciplina: Sistemas Distribuidos
-
-Curso: Analise e Desenvolvimento de Sistemas
-
-Id: 20222TADSSAJ0024
-
+# Sistemas Distribuídos
 ## Relógio de Lamport
 
 O algoritmo de Lamport define um relógio lógico para ordenar eventos em sistemas distribuídos sem depender de relógios físicos. Cada processo mantém um contador que é incrementado em eventos locais e atualizado (comparando e somando 1) ao receber mensagens. Isso garante que a ordem causal entre os eventos seja preservada, mesmo sem uma sincronização física dos relógios.
@@ -236,6 +226,13 @@ package "sistemasdistribuidos.heartbeat" {
 
 ```https://docs.google.com/document/d/1-bIeZvtYItGwD84XZXQEC0eI_OXdb_K0etlvfzFWmQg/edit?usp=sharing ```
 
+## Identificação:
+Instituto Federal de Ciência, Educação e Tecnologia da Bahia - Santo Antônio de Jesus
+
+- Discente: Adriano Victor Nascimento Ribeiro
+- Disciplina: Sistemas Distribuidos
+- Curso: Analise e Desenvolvimento de Sistemas
+- Matrícula: 20222TADSSAJ0024
 
 ### Referências: 
 
